@@ -1,0 +1,27 @@
+{
+  "name": "gittraining",
+  "version": "1.0.0",
+  "description": "train",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssssskye/gitTraining.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssssskye/gitTraining/issues"
+  },
+  "homepage": "https://github.com/ssssskye/gitTraining#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.1.4"
+  }
+}
