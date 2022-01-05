@@ -2,9 +2,9 @@
   "name": "gittraining",
   "version": "1.0.0",
   "description": "train",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,7 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
-    "mongoose": "^6.1.4"
+    "mongoose": "^6.1.4",
+    "restify-errors": "^8.0.2"
   }
 }
